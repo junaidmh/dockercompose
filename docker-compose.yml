@@ -2,8 +2,6 @@ wordpress:
   image: wordpress
   links:
     - mysql:mysql
-  environment:
-    - WORDPRESS_DB_PASSWORD=password
   ports:
     - 8080:80
 
